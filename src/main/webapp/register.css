@@ -1,0 +1,55 @@
+body{
+
+  background-image: url("reg.png");
+background-repeat: no-repeat;
+background-size:100%;
+}
+.register{
+    position: absolute;
+    top:20%;
+    left: 35%;
+
+    padding: 70px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-radius: 25px;
+  	border-color: rgb(140, 223, 226);
+    opacity: 1;
+}
+.register h2{
+    text-align:center;
+
+}
+::placeholder{
+    color: #000;
+}
+.register .input input{
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+   background-color:transparent;
+
+
+}
+.register .button button{
+   background-color:rgb(228, 218, 77);
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 50px;
+    text-align: center;
+     border-color: black;
+
+}
+::placeholder{
+    color: pink;
+}
+a:link{
+    color:blue;
+    font-size: 20px;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: red;
+}
